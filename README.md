@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Animuse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Animuse is an anime watchlist app that allows users to keep track of the anime they want to watch or have already watched. This application was built using PostgresSQL, Express, PG, Axios, React, and Bootstrap CDN.
 
-## Available Scripts
+The app uses Jikan API to display a list of 9 random animes on the home page, filtered by only PG-13 animes to avoid any adult content. Users can generate a new list of 9 animes by clicking on the "More Anime" button. Users can also add an anime to their watchlist by clicking on the "Add to Watchlist" button on an anime card.
 
-In the project directory, you can run:
+The watchlist page displays all the animes that the user has added to their watchlist. Users can update their review of the anime and also delete an Anime from the watchlist showing full CRUD functionality.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. If you would like to edit the backend view my other repository labeled react-mvp-backend
+4. Start the server by running `npm start`.
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following dependencies were used in this project:
 
-### `npm run build`
+- Express (react-mvp-backend)
+- pg (react-mvp-backend)
+- dotenv (react-mvp-backend)
+- cors (react-mvp-backend)
+- nodemon (devDependency) (react-mvp-backend)
+- React
+- bootstrap CDN
+- axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app uses the Jikan API to generate the list of animes on the home page. Visit the [Jikan API documentation](https://jikan.moe/docs) to learn more about the API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Improvements
 
-### `npm run eject`
+- Add user authentication and authorization.
+- Allow users to rate an anime and sort their watchlist by rating.
+- Allow users to search for an anime and add it to their watchlist.
+- Allow users to share their watchlist with friends.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Keyonna Garfine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The creators of Jikan API.
+- The creators of PostgresSQL, Express, React, and Bootstrap.
