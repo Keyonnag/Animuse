@@ -1,5 +1,7 @@
 # Animuse
 
+This is the Client Side React applications to see the RESTFULL API and server side code refer to https://github.com/Keyonnag/anime-watchlist-app-backend
+
 Animuse is an anime watchlist app that allows users to keep track of the anime they want to watch or have already watched. This application was built using PostgresSQL, Express, PG, Axios, React, and Bootstrap CDN.
 
 The app uses Jikan API to display a list of 9 random animes on the home page, filtered by only PG-13 animes to avoid any adult content. Users can generate a new list of 9 animes by clicking on the "More Anime" button. Users can also add an anime to their watchlist by clicking on the "Add to Watchlist" button on an anime card.
