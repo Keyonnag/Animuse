@@ -26,7 +26,6 @@ function AnimeCard({
 	const handleDeleteClick = () => {
 		handleDeleteAnime(anime.title);
 	};
-
 	return (
 		<div className='card'>
 			<img
@@ -38,9 +37,6 @@ function AnimeCard({
 				<h5 className='card-title'>{anime.title}</h5>
 				<p className='card-text'>{anime.synopsis}</p>
 				<ul className='list-group list-group-flush'>
-					<li className='list-group-item'>
-						<strong>Airing:</strong> {anime.airing ? 'Yes' : 'No'}
-					</li>
 					<li className='list-group-item'>
 						<strong>Episodes:</strong> {anime.episodes}
 					</li>

@@ -24,7 +24,6 @@ function App() {
 		const response = await fetch(`${api_url}/watchlist`);
 		const data = await response.json();
 		setWatchList(data);
-		console.log(data);
 	};
 
 	useEffect(() => {
