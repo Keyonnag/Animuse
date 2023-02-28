@@ -37,7 +37,7 @@ function AnimeCard({
 		: anime.synopsis;
 
 	return (
-		<div className='card'>
+		<div className='card anime-card'>
 			<div className='row g-0'>
 				<div className='col-5 col-sm-4'>
 					<img
